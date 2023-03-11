@@ -23,10 +23,8 @@ int main()
    cout << "Введите баланс: "; 
    cin >> newac.balance;
 
-   account* dnewac = &newac;
-
-   cout << "\nВведите новый баланс: ";
-   cin >> dnewac->balance;
+   cout << "Введите новый баланс: ";
+   cin >> newac.balance; 
 
    cout << "Ваш счёт: " << newac.name << ", " << newac.number << ", " << newac.balance << endl;
 }
